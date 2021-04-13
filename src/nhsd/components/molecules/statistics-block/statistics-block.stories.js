@@ -22,7 +22,11 @@ ${sbConfig.heading.basicRules}
 
 ### Developer notes
 
-- xxxxxxxxxx`;
+- Uses the <a href="/docs/design-system-components-atoms-icon--lab-component">Icon</a> and <a href="/docs/design-system-components-atoms-box--lab-component">Box</a> atoms, alongside the typography token
+- Currently supports any available <a href="/docs/design-system-components-atoms-box--lab-component">Box</a> colour, but examples used indicated desired usage
+- Figures and data does not currently animate, but there are plans to include JS to animate the data
+- When using a prefix or suffix, icons and text labels can be used simultaneously and interchangeably
+- Multiple Statistic Blocks can be displayed in a grid using the <a href="/docs/design-system-components-organism-statistics-blocks--lab-component">Statistic Blocks</a> organism`;
 
 const sourceCode = `// Sass import \n@use "nhsd/components/molecules/statistics-block";
 

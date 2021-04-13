@@ -17,8 +17,6 @@ $-root: ".nhsd-m-statistics-block";
 
   .nhsd-a-box {
     @include nhsd-spacing.set-responsive('padding', 8);
-    @include nhsd-spacing.set-responsive('padding-top', 9);
-    @include nhsd-spacing.set-responsive('padding-bottom', 9);
     overflow: hidden;
   }
 
@@ -36,14 +34,14 @@ $-root: ".nhsd-m-statistics-block";
 
   &__subtitle {
     .nhsd-t-heading-xs {
-      margin-top: nhsd-spacing.get(3);
+      margin-top: nhsd-spacing.get(2);
       margin-bottom: 0;
     }
   }
 
   &__text {
     .nhsd-t-body {
-      margin-top: nhsd-spacing.get(3);
+      margin-top: nhsd-spacing.get(2);
       margin-bottom: 0;
     }
   }
