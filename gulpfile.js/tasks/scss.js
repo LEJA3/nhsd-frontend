@@ -40,7 +40,7 @@ gulp.task('scss:compile', () => gulp.src(`${PATHS.src.root}/**/*.scss`)
           let replacedUrl = url;
           if (url.match(/\.\.\/assets\/.+\..+/)) {
             const filePath = url.split('/assets/')[1];
-            replacedUrl = `url("${ENV.CDN_URL + filePath}")`;
+            replacedUrl = `url("${ENV.CDN_URL + process.env.STORYBOOK_VERSION + '/' + filePath}")`;
           }
           return replacedUrl;
         },
